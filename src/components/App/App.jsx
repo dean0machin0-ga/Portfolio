@@ -1,24 +1,27 @@
-// import { useState } from 'react'
+// Import Components
+import { Route, Routes } from "react-router-dom"
+import Header from "../../components/Header"
+import Footer from "../../components/Footer"
+
+// Import Pages
+import Home from "../../pages/Home"
+import About from "../../pages/About"
+import Projects from "../../pages/Projects"
+
 import './App.css'
 
 function App() {
   
   return (
-    <>
-      <div>
-        <a>
-        </a>
-      </div>
-      <h1>A Portfolio By Dean</h1>
-      <div className="card">
-        <button>
-        </button>
-        <p>
-        </p>
-      </div>
-      <p className="">
-      </p>
-    </>
+    <div className="App">
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </div>
   )
 }
 

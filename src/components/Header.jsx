@@ -10,7 +10,8 @@ function Header() {
         padding: ".5rem",
         width: "90%",
         margin: "auto",
-    }
+    };
+
     return (
         <header>
             <h1>My Portfolio Page</h1>
@@ -26,7 +27,7 @@ function Header() {
                 </Link>
             </nav>
         </header>
-    )
+    );
 }
 
 export default Header

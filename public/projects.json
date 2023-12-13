@@ -1,10 +1,10 @@
 [
     {
         "name": "RocketMan: word puzzle blast off!",
-        "live": "https://app.herokuapp.com/whatever",
         "git": "https://github.com/dean0machin0-ga/RocketMan",
         "image": "https://i.imgur.com/TxECLtu.png"
     },
+    
     {
         "name": "UW-Husky-Football Tracker",
         "live": "https://husky-football-tracker-581367b551a5.herokuapp.com/games",

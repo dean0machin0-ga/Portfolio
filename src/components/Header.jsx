@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
 
 function Header() {
-
+    
     const navStyle = {
         display: "flex",
         justifyContent: "space-around",
@@ -10,11 +11,24 @@ function Header() {
         padding: ".5rem",
         width: "90%",
         margin: "auto",
-    };
+    }
+    
+    const [header, setHeader] = useState([])
 
-    return (
+    const getHeaderData = async () => {
+    const response = await fetch("./header.json")
+    const data = await response.json()
+    setHeader(data)
+    
+    }
+
+    useEffect(() => {
+        getHeaderData()
+    }, [] )
+    
+    const loaded = () => (
         <header>
-            <h1>My Portfolio Page</h1>
+            <h1>{header.portfolioName}</h1>
             <nav style={navStyle}>
                 <Link to="/">
                     <div>HOME</div>
@@ -27,7 +41,7 @@ function Header() {
                 </Link>
             </nav>
         </header>
-    );
+    )
+    return header ? loaded() : <h1>loading...</h1>
 }
-
 export default Header

@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 
-function Projects(props) {
+function Projects() {
     const [projects, setProjects] = useState(null);
     
     const getProjectsData = async () => {

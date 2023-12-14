@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 
@@ -19,7 +18,6 @@ function Header() {
     const response = await fetch("./header.json")
     const data = await response.json()
     setHeader(data)
-    
     }
 
     useEffect(() => {

@@ -1,6 +1,6 @@
 # Dean Walton's Digital Showcase
 
-![Project Preview](link_to_project_preview_image)
+![Project Preview](https://i.imgur.com/NV9CX3z.png)
 
 ## Introduction
 

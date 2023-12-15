@@ -16,12 +16,15 @@ When I'm not coding, you can find me spending quality time with my two wonderful
 
 ## Technologies Used
 
-- React
-- JSX
-- JavaScript
-- CSS
 - HTML
-- Tailwind CSS
+- CSS
+- JavaScript
+- React
+- Express
+- Node.js
+- Mongoose
+- Tailwindcss
+- Bootstrap
 
 ## Acknowledgements
 
@@ -29,7 +32,8 @@ I'd like to express my gratitude to my instructors and peers at General Assembly
 
 ## References and Inspiration
 
-- [Insert references and sources here]
+- Tim Ferriss [https://i.imgur.com/1FvVdJj.jpg]
+- Guy Raz [https://i.imgur.com/W528t0T.jpg]
 
 ## Future Features
 

@@ -32,7 +32,9 @@ I'd like to express my gratitude to my instructors and peers at General Assembly
 
 ## References and Inspiration
 
+Tim Ferriss
 ![Tim Ferriss](https://i.imgur.com/1FvVdJj.jpg)
+Guy Raz
 ![Guy Raz](https://i.imgur.com/W528t0T.jpg)
 
 ## Future Features

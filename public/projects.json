@@ -1,5 +1,12 @@
 [
     {
+        "name": "Plantopedia 🪴",
+        "live": "https://plantopedia-pp.netlify.app/",
+        "git": "https://github.com/dean0machin0-ga/Plantopedia",
+        "image": "https://i.imgur.com/HOlMrY5.png"
+    },
+
+    {
         "name": "RocketMan: word puzzle blast off!",
         "git": "https://github.com/dean0machin0-ga/RocketMan",
         "image": "https://i.imgur.com/TxECLtu.png"

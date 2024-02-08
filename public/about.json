@@ -4,7 +4,7 @@
     "graduationDate": "January 24, 2024",
     "location":"Seattle, wA",
     "headshot": "https://i.imgur.com/hJm9WyW.jpg",
-    "headshot-2": "https://i.imgur.com/M1OjTJ4.jpg",
-    "headshot-3": "https://i.imgur.com/ISajSDx.jpg",
+    "headshot2": "https://i.imgur.com/M1OjTJ4.jpg",
+    "headshot3": "https://i.imgur.com/ISajSDx.jpg",
     "bio": "As a Full-stack Engineer, I bring a diverse skill set and a bevy of tools to the table, including JavaScript, Python, React, Django, Express.js, MongoDB, Node.js, SQL, HTML, and CSS. With over 10 years of experience in aerospace programming and manufacturing, I am poised to transition my expertise into the dynamic world of software development." 
 }

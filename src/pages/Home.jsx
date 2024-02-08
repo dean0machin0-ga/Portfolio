@@ -15,7 +15,7 @@ function Home() {
 
         const loaded = () => (
             <div>
-            <href>{ home.headshot }</href>
+            <img src={ home.headshot } />
             <h3>{ home.email }</h3>
             <p>{ home.bio }</p>
             </div>
@@ -23,6 +23,5 @@ function Home() {
     
     return home ? loaded() : <h1>Loading...</h1>
 }
-    
 
 export default Home

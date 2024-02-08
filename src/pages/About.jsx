@@ -16,9 +16,10 @@ function About() {
     const loaded = () => (
         <div>
             <h2>{ about.name }</h2>
+            <h2>{ about.location }</h2>
             {/* <img src={ about.headshot } /> */}
             <img src={ about.headshot3 } />
-            <h3>{ about.email }</h3>
+            <h3><a href={`mailto:${about.email}`}>{ about.email }</a></h3>
             <p>{ about.bio }</p>
         </div>
     )
